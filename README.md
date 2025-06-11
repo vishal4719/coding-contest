@@ -1,5 +1,12 @@
 # 🚀 Secure Online Coding Platform
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Java](https://img.shields.io/badge/Java-17+-orange.svg)](https://www.oracle.com/java/)
+[![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.0+-green.svg)](https://spring.io/projects/spring-boot)
+[![React](https://img.shields.io/badge/React-18+-blue.svg)](https://reactjs.org/)
+[![Kubernetes](https://img.shields.io/badge/Kubernetes-1.20+-326CE5.svg)](https://kubernetes.io/)
+[![RabbitMQ](https://img.shields.io/badge/RabbitMQ-3.8+-FF6600.svg)](https://www.rabbitmq.com/)
+
 A **high-performance, secure online coding platform** designed for conducting coding tests and assessments. Built with enterprise-grade security features, anti-cheating mechanisms, and scalable microservices architecture to handle concurrent users efficiently.
 
 ## ✨ Key Features
@@ -33,8 +40,8 @@ A **high-performance, secure online coding platform** designed for conducting co
 - **Cloud-Native**: Kubernetes-ready deployment
 
 ## 🏗️ System Architecture & Flow
-![image](https://github.com/user-attachments/assets/a34d808e-563a-479b-948f-2e0ae5a62b9a)
 
+![Platform Architecture](./docs/images/platform-architecture.png)
 
 ### Complete User Journey
 
@@ -143,6 +150,8 @@ graph TB
 
 ## 🔐 Admin Features & Controls
 
+### Domain Management
+![Admin Dashboard](./docs/images/admin-dashboard.png)
 
 **Key Admin Functions:**
 - Set authorized email domains for user registration
@@ -174,6 +183,9 @@ graph TB
 
 ## 🛡️ Security Implementation
 
+### Anti-Cheating Features
+![Security Dashboard](./docs/images/security-features.png)
+
 **Browser Security:**
 - Real-time window focus monitoring
 - Automatic warnings for tab switching
@@ -200,6 +212,8 @@ graph TB
 
 ## 🚀 Performance Metrics
 
+### Real-World Performance
+![Performance Metrics](./docs/images/performance-metrics.png)
 
 | Metric | Value | Description |
 |--------|-------|-------------|
@@ -228,6 +242,8 @@ graph TB
 
 ## 📊 Tech Stack Deep Dive
 
+### Core Technologies
+![Tech Stack](./docs/images/tech-stack.png)
 
 | Component | Technology | Version | Purpose |
 |-----------|------------|---------|---------|
@@ -255,6 +271,7 @@ graph TB
 ## 🚀 Quick Start
 
 ### Prerequisites
+![Installation Requirements](./docs/images/prerequisites.png)
 
 **Required Software:**
 - Docker 20.10+
@@ -370,6 +387,8 @@ kubectl get pods -n coding-platform
 
 ## 🧪 Testing & Quality Assurance
 
+### Load Testing Results
+![Load Testing](./docs/images/load-testing.png)
 
 **Performance Benchmarks:**
 - 50 virtual users sustained
@@ -514,7 +533,13 @@ Special thanks to these amazing **open-source projects** that make this platform
 - **[React](https://reactjs.org/)** - Modern frontend library for building interactive user interfaces
 - **[MongoDB](https://www.mongodb.com/)** - Flexible document database for data persistence
 
+## 📞 Support & Community
 
+**Get Help:**
+- 📧 **Email Support**: support@codingplatform.com
+- 💬 **Community Discord**: [Join our community](https://discord.gg/codingplatform)
+- 📖 **Full Documentation**: [Complete docs](https://docs.codingplatform.com)
+- 🐛 **Report Issues**: [GitHub Issues](https://github.com/yourusername/secure-coding-platform/issues)
 
 **Performance Highlights:**
 - Handles **18K-27K submissions per hour**
